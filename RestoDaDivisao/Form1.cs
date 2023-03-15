@@ -27,5 +27,7 @@ namespace RestoDaDivisao
             int resto = dividendo % divisor;
             txtRestoDaDivisao.Text = resto.ToString();
         }
+        //A implementação realizada não trabalhou a hipótese de o usuário digitar
+        //no divisor o valor 0 (zero).
     }
 }
